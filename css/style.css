@@ -1,0 +1,413 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: serif;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+/*header start*/
+.container{
+	width: 1140px;
+	margin: 2px auto;
+}
+.header{
+	width: 100%;
+	background: #eee;
+	padding:10px 120px;
+
+}
+.inner-header{
+	justify-content: space-between;
+	display: flex;
+}
+.navbar ul{
+	display: flex;
+	display: inline-block;
+
+}
+.navbar ul li{
+	list-style: none;
+	
+}
+.navbar ul li a{
+	display: block;
+	margin: 35px 15px 0px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: black;
+}
+.logo img{
+	width: 100px;
+	margin: 15px 50px;
+}
+.menu-btn .btn-primary{
+	padding: 10px 30px;
+	background:greenyellow;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	border: 1px solid green;
+	margin: 30px 0px;
+	transition: 1s;
+	display: inline-block;
+}
+
+
+.menu-btn .btn-primary:hover{
+	background: green;
+	color: red;
+	border: 1px solid black;
+
+}
+
+.menu-btn .btn-primary:focus{
+	background: white;
+	color: black;
+	border: 1px solid black;
+
+/*header end*/
+
+/*banner start*/
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.banner{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-banner{
+	display: flex;
+}
+.content h1{
+	font-size: 40px;
+	line-height: 1.2em;
+	color: red;
+	font-weight: bold;
+	margin: 0px 0px 10px;
+}
+
+.content h4{
+	font-size: 24px;
+	line-height: 1.2em;
+	color: black;
+	font-weight: 300;
+	margin: 0px 0px 10px
+
+}
+.btn-primary{
+	padding: 10px 30px;
+	background:greenyellow;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	border: 1px solid green;
+	margin: 30px 0px;
+	transition: 1s;
+	display: inline-block;
+}
+.btn-primary:hover{
+	background: green;
+	color: red;
+	border: 1px solid black;
+
+}
+.content{
+	flex-basis: 54%;
+}
+.banner-img{
+	flex-basis: 54%;
+}
+
+
+/*banner end*/
+/*feature start*/
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-feature{
+	display: flex;
+}
+.feature-box1{
+	padding: 40px 25px;
+	background: red;
+    margin: 0px 150px;
+	border-radius: 5px;
+	display: flex;
+	display:block;
+	color: white;
+}
+.feature-box2{
+
+padding: 40px 25px;
+	background: red;
+    margin: 0px 150px;
+	border-radius: 5px;
+	display: flex;
+	display:block;
+	color: white;
+}
+.feature-box3{
+	padding: 30px 20px;
+	background: red;
+    margin: 0px 10px;
+	border-radius: 5px;
+	display: flex;
+	display:block;
+	color: white;
+}
+
+.icon{
+	flex-basis: 50%;
+}
+.inner-text{
+	flex-basis: 80%;
+}
+.icon fa{
+	font-size: 35px;
+
+}
+.inner-text h4{
+	font-size: 20px;
+	line-height: 1.2em;
+	color: black;
+	font-weight: bold;
+	text-transform: capitalize;
+
+	margin: 0 0 10px;
+
+}
+.inner-text p{
+	font-size: 16px;
+	line-height: 1.7em;
+	font-weight: 700;
+}
+/*feature end*/
+
+/*banner 2  start */
+
+.banner1{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-banner1{
+	display: flex;
+	align-items: center;
+}
+.content1 h6{
+	font-size: 30px;
+	line-height: 1.2em;
+	color: black;
+
+	font-weight: 700;
+	 margin: 93px 0px 10px;
+	 padding: 25px;
+
+}
+.content1 h1{
+	font-size: 54px;
+	line-height: 1.2em;
+	color: red;
+	font-weight: bold;
+	margin: 0px 0px 15px;
+	padding: 20px;
+}
+.content1 h4{
+	font-size: 20px;
+	line-height: 1.2em;
+	color: black;
+	font-weight: bold;
+	margin: 0px 0px 15px;
+	padding: 20px;
+}
+.btn-primary1{
+	padding: 10px 20px;
+	background:greenyellow;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	border: 1px solid green;
+	margin: 0px 30px;
+	transition: 1s;
+	display: inline-block;
+}
+.btn-primary1:hover{
+	background: green;
+	color: red;
+	border: 1px solid black;
+}
+.content1{
+	flex-basis: 54%;
+}
+.banner-img1{
+	flex-basis: 54%;
+}
+/*banner 2 end*/
+/*section 3rd start*/
+
+.content2 h1, h4, h5{
+	
+	text-align: center;
+	
+	margin: 40px 50px 60px 40px;
+
+}
+.content2 h1{
+	font-size: 40px;
+	color: red;
+	padding: 14px 10px;
+	margin: 10px;
+	font-weight: bold;
+	background: #eee;
+}
+.content2 h5{
+	color: black;
+	font-size: 18px;
+	
+
+}
+.content2 h4{
+	display: flex;
+	display: inline-block;
+	color: #eeerfd;
+	background: white;
+}
+.btn-primary2{
+	padding: 10px 20px;
+	background:greenyellow;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	border: 1px solid green;
+	margin: 0px 30px;
+	transition: 1s;
+	display: inline-block;
+}
+.btn-primary2:hover{
+	background: green;
+	color: red;
+	border: 1px solid black;
+}
+.banner-img2{
+	text-align: center;
+   display: inline-blex;
+}
+/*section 3rd end*/
+
+.feature4{
+	width: 100%;
+	padding: 50px 15px 35px;
+
+}
+.footer{
+	width: 100%;
+}
+.top-footer{
+	width: 100%;
+	padding: 80px 0px 20px;
+}
+.inner-top-fotter{
+	display: flex;
+	background: white;
+	padding: 90px 70px;
+	border-radius: 10px;
+
+}
+.inner-top-widget{
+	flex-basis: 50%;
+}
+.inner-top-widget h4{
+	font-size: 20px;
+	line-height: 1.2cm;
+	color: black;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0px 0px 10px;
+
+
+}
+.inner-top-widget p{
+	font-size: 15px;
+	line-height: 1.2cm;
+	color: black;
+	font-weight: 400;
+	text-transform: capitalize;
+	background: red;
+	text-align: center;
+}
+.footer-widgets{
+	width: 100%;
+}
+.inner-footer-widgets{
+	display: flex\;
+	padding: 80px 20px;
+}
+
+.widget{
+	flex-basis: 25%;
+	margin: 0px 15px;
+
+}
+.widget h5{
+	font-size: 20px;
+	line-height: 1.2cm;
+	color: black;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0px 0px 10px;
+}
+.widget p{
+	font-size: 15px;
+	line-height: 1.2cm;
+	color: black;
+	font-weight: 400;
+	text-transform: capitalize;
+	background: red;
+	text-align: center;
+}
+.widget ul li{
+	list-style: none;
+}
+.widget ul li a{
+	font-size: 15px;
+	line-height: 1.2cm;
+	color: black;
+	font-weight: 400;
+	text-transform: capitalize;
+	background: red;
+	text-align: center;\
+	margin: 0px 0px 5px;
+	display: block;
+
+}
+.img{
+	width: 100%;
+	text-align: center;
+	padding: 0px 0px 40p;
+}
+.main-footer{
+	width: 100%;
+	padding: 10px 0px;
+}
+.main-footer p{
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.7em;
+	color: red;
+	font-weight: bold;
+}
